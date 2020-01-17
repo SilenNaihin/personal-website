@@ -194,58 +194,58 @@ for(i = 0; i < tags.length; i++){
 
 // Portfolio Section
 const links_portfolio = [
-    "projects/QTTT.html",
+    "projects/Livelihood.html",
     "projects/Leasure.html",
     "projects/Darwin^x.html",
     "projects/Walmart.html",
     "projects/Grover.html",
     "projects/Lendr.html",
     "projects/Talk Money.html",
-    "projects/Livelihood.html",
+    
     "projects/PRM.html",
 ];
 const port_imgs = [
-    "assets/images/QTTT/qtttprojects.png",
+    "assets/images/Lendr/lendrprojects.png",
     "assets/images/Leasure/leasureprojects.png",
     "assets/images/Darwin^x/darwinxprojects.png",
     "assets/images/Walmart/walmartprojects.png",
     "assets/images/Grover/groverprojects.png",
     "assets/images/Livelihood/livelihoodprojects.png",
     "assets/images/Talk Money/talkmoneyprojects.png",
-    "assets/images/Lendr/lendrprojects.png",
+    
     "assets/images/PRM/prmprojects.png",
 ];
 const port_titles = [
-    "Quantum Tic-Tac-Toe",
+    "Livelihood",
     "Leasure",
     "Darwin^x",
     "Walpay",
     "Grover's Algorithm",
     "Lendr",
     "Talk Money",
-    "Livelihood",
+    
     "6Degrees",
 ];
 const port_descs = [
-    "Project",
+    "Web App To Improve Immigrants Transition Experience",
     "Car Sharing Company Concept (won $200 at Tribalscale Ideathon)",
     "Moonshot Company",
     "Consulting for Walmart (presented to executives at Walmart HQ)",
     "Breaking Cryptosystems With Quantum Computers",
     "Aid Against Predatory Payday Loans",
     "NLP To Improve Financial Readability",
-    "Web App To Improve Immigrants Transition Experience",
+    
     "Keep In Touch With Contacts Effortlessly",
 ];
 const port_bottom = [
-    "QTTT - <b>Quantum Tic-Tac-Toe Using Qiskit</b>",
+    "Livelihood - <b>Polishing The Immigrantion Experience</b>",
     "Leasure - <b>Advancing The Car Sharing Economy To The Next Level</b>",
     "Darwin^x - <b>Curing Cancer With Nanobots</b>",
     "Walpay - <b>Lowering Walmart's Transaction Fees</b>",
     "Grover's Algorithm - <b>Encryption and Quantum Computers</b>",
     "Lendr - <b>The Fight Against Predatory Loans</b>",
     "Talk Money - <b>Improving Financial Readability For All</b>",
-    "Livelihood - <b>Polishing The Immigrantion Experience</b>",
+    
     "Personal Relationship Manager - <b>Triple Your Emotional Intelligence</b>",
 
 ];
