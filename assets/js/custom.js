@@ -216,13 +216,13 @@ const port_imgs = [
     "assets/images/PRM/prmprojects.png",
 ];
 const port_titles = [
-    "Livelihood",
-    "Leasure",
+    "Livelihood (Hackathon)",
+    "Leasure (Hackathon)",
     "Darwin^x",
     "Walpay",
     "Grover's Algorithm",
-    "Lendr",
-    "Talk Money",
+    "Lendr (Hackthon)",
+    "Talk Money (Hackathon)",
     
     "6Degrees",
 ];
