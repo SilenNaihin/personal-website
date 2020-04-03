@@ -435,6 +435,7 @@ for(i = 0; i < blog_link.length; i++){
 
 // Newsletter 
 const news_link = [
+    "https://preview.mailerlite.com/a3o1v2",
     "https://preview.mailerlite.com/o0v9w2",
     "https://preview.mailerlite.com/u5p7g3",
     "https://preview.mailerlite.com/d7o5i7",
@@ -447,6 +448,7 @@ const news_link = [
     "https://preview.mailerlite.com/l7j3c1",
 ];
 const news_img = [
+    "assets/images/newsletter/Q1 2020.jpg",
     "assets/images/newsletter/November 2019.png",
     "assets/images/newsletter/October 2019.png",
     "assets/images/newsletter/September 2019.jpg",
@@ -469,8 +471,10 @@ const news_title = [
     "",
     "",
     "",
+    "",
 ];
 const news_time = [
+    "Wrote 3 blogs, won Best App and Design awards at a hackathon, and revamped my personal website",
     "Winning FinHacks, writing an article about humour, and applying to CES Young Innovators",
     "Winning $1500 at a hackathon, quantum supremacy, and Nietzsche!",
     "End of my internship at Elevate, start of a new project and more!",
@@ -483,6 +487,7 @@ const news_time = [
     "From consulting and recommending Walmart innovative solutions, to researching quantum computing.",
 ];
 const news_bottom_title = [
+    "Q1 Newsletter",
     "November Newsletter",
     "October Newsletter",
     "August/September Newsletter",
@@ -495,6 +500,7 @@ const news_bottom_title = [
     "November Newsletter",
 ];
 const news_bottom_desc = [
+    "2020",
     "2019",
     "2019",
     "2019",
