@@ -201,7 +201,6 @@ const links_portfolio = [
     "projects/Grover.html",
     "projects/Lendr.html",
     "projects/Talk Money.html",
-    
     "projects/PRM.html",
 ];
 const port_imgs = [
@@ -216,13 +215,13 @@ const port_imgs = [
     "assets/images/PRM/prmprojects.png",
 ];
 const port_titles = [
-    "Livelihood (Hackathon)",
-    "Leasure (Hackathon)",
+    "Livelihood",
+    "Leasure",
     "Darwin^x",
     "Walpay",
     "Grover's Algorithm",
-    "Lendr (Hackthon)",
-    "Talk Money (Hackathon)",
+    "Lendr",
+    "Talk Money",
     
     "6Degrees",
 ];
@@ -448,17 +447,17 @@ const news_link = [
     "https://preview.mailerlite.com/l7j3c1",
 ];
 const news_img = [
-    "assets/images/newsletter/Q1 2020.jpg",
-    "assets/images/newsletter/November 2019.png",
-    "assets/images/newsletter/October 2019.png",
-    "assets/images/newsletter/September 2019.jpg",
-    "assets/images/newsletter/June.July2019.jpg",
-    "assets/images/newsletter/May 2019.jpeg",
-    "assets/images/newsletter/March 2019.jpeg",
-    "assets/images/newsletter/February 2019.jpeg",
-    "assets/images/newsletter/January 2019.png",
-    "assets/images/newsletter/December 2018.jpeg",
-    "assets/images/newsletter/November 2018.jpeg",
+  "assets/images/newsletter/Q1 2020.jpg",
+  "assets/images/newsletter/November 2019.png",
+  "assets/images/newsletter/October 2019.png",
+  "assets/images/newsletter/September 2019.jpg",
+  "assets/images/newsletter/June.July2019.jpg",
+  "assets/images/newsletter/May 2019.jpeg",
+  "assets/images/newsletter/March 2019.jpeg",
+  "assets/images/newsletter/February 2019.jpeg",
+  "assets/images/newsletter/January 2019.png",
+  "assets/images/newsletter/December 2018.jpeg",
+  "assets/images/newsletter/November 2018.jpeg",
 ];
 const news_title = [
     "",
@@ -474,7 +473,7 @@ const news_title = [
     "",
 ];
 const news_time = [
-    "Wrote 3 blogs, won Best App and Design awards at a hackathon, and revamped my personal website",
+    "Winning Hack The Hammer, writing some blogs, starting my development journey",
     "Winning FinHacks, writing an article about humour, and applying to CES Young Innovators",
     "Winning $1500 at a hackathon, quantum supremacy, and Nietzsche!",
     "End of my internship at Elevate, start of a new project and more!",
@@ -487,17 +486,17 @@ const news_time = [
     "From consulting and recommending Walmart innovative solutions, to researching quantum computing.",
 ];
 const news_bottom_title = [
-    "Q1 Newsletter",
-    "November Newsletter",
-    "October Newsletter",
-    "August/September Newsletter",
-    "June/July Newsletter",
-    "May Newsletter",
-    "March Newsletter",
-    "February Newsletter",
-    "January Newsletter",
-    "December Newsletter",
-    "November Newsletter",
+  "Q1",
+  "November",
+  "October",
+  "August/September",
+  "June/July",
+  "May",
+  "March",
+  "February",
+  "January",
+  "December",
+  "November",
 ];
 const news_bottom_desc = [
     "2020",
