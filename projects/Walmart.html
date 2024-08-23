@@ -34,8 +34,51 @@
 
 	<!--Favicon-->
 	<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
+	<style>
+		#loginOverlay {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 1);
+			color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			z-index: 9999;
+		}
+		#loginOverlay input[type="password"] {
+			padding: 10px;
+			font-size: 16px;
+			border: none;
+			border-radius: 5px;
+			margin-right: 10px;
+		}
+		#loginOverlay button {
+			padding: 10px 20px;
+			font-size: 16px;
+			background-color: #fff;
+			color: black;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	</style>
 	</head>
 
+	<script>
+		function checkPassword() {
+			var correctPassword = "oUL+xL.5L0'7CJw"; // Set your password here
+			var enteredPassword = document.getElementById('passwordInput').value;
+			
+			if (enteredPassword === correctPassword) {
+				document.getElementById('loginOverlay').style.display = 'none';
+			} else {
+				alert('Incorrect password, please try again.');
+			}
+		}
+	</script>
 	<!-- MailerLite Universal -->
 <script>
 	(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
@@ -51,6 +94,12 @@
 
 
 <body data-spy="scroll" data-target=".navbar">
+	<div id="loginOverlay">
+		<div>
+			<input type="password" id="passwordInput" placeholder="Enter Password">
+			<button onclick="checkPassword()">Submit</button>
+		</div>
+	</div>
 
 	<!-- START: Preloader -->
 	<div id="preloader" class="preloader">
